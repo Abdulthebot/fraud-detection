@@ -1,0 +1,14 @@
+fraud-detection-pipeline/
+│
+├── notebooks/
+│   └── fraud_detection_analysis.ipynb   # Your complete analysis and model training
+│
+├── src/
+│   └── preprocess.py                    # (Optional) Any helper functions for data cleaning
+│
+├── models/
+│   └── xgboost_model.pkl                # Your saved, trained model file
+│
+├── app.py                               # The Flask API server
+├── requirements.txt                     # All project dependencies
+└── README.md                            # The project's front page
